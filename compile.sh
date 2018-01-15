@@ -30,7 +30,7 @@ rm -rf build; mkdir -p build/release; cd build/release
 
 # Compile!
 if [[ "$OSTYPE" == "msys" ]]; then
-	cmake -G "Visual Studio 12 Win64" "..\.."
+	cmake -G "Visual Studio 15 Win64" "..\.."
 	msbuild.exe Bytecoin.sln /property:Configuration=Release ${COMPILE_ARGS}
 else
 	cmake -D STATIC=ON -D ARCH="default" -D CMAKE_BUILD_TYPE=Release ../..
