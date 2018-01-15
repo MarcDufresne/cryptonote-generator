@@ -1,0 +1,27 @@
+{
+    "extensions": [ "core/bytecoin.json", "print-genesis-tx.json" ],
+    "base_coin":{
+        "name":"bytecoin",
+        "git":"https://github.com/amjuarez/bytecoin.git"
+    },
+    "core":{
+        "CRYPTONOTE_NAME":"m0rkcoin",
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":"0x28e7e7",
+        "P2P_DEFAULT_PORT":18111,
+        "RPC_DEFAULT_PORT":18112,
+        "SEED_NODES":["192.34.79.57:18111", "192.34.79.96:18111", "165.227.45.171:18111", "45.55.239.100:18111"],
+        "CHECKPOINTS":[],
+        "P2P_STAT_TRUSTED_PUB_KEY":"4d26c4df7f4ca7037950ad026f9ab36dd05d881952662992f2e4dcfcafbe57eb",
+        "GENESIS_COINBASE_TX_HEX":"010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121010efaba29f661e0a605731bc5d8718f4faf6d6460e5f0ecbb079a27a0b7df32af",
+        "BYTECOIN_NETWORK":"30f2dc77-1b1b-4097-9ff8-e058f865271d",
+        "MONEY_SUPPLY":"18446744073709551615",
+        "EMISSION_SPEED_FACTOR":18,
+        "DIFFICULTY_TARGET":120,
+        "MINIMUM_FEE":1000000,
+        "DEFAULT_DUST_THRESHOLD":1000000,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT":12,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW":10,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE":20000,
+        "UPGRADE_HEIGHT":1
+	}
+}
