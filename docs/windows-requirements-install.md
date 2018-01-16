@@ -1,4 +1,4 @@
-### Windows requirements install instructions
+# Windows requirements install instructions
 
 These instructions have been tested on Windows 10.
 
